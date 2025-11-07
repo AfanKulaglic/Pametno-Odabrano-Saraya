@@ -39,8 +39,14 @@
     ".next\\dev/types/**/*.ts"
   ],
   "exclude": [
-    "node_modules",
-    "cypress"
-  ],
+  "node_modules",
+  "cypress",
+  ".storybook",
+  "stories",
+  "**/*.stories.tsx",
+  "**/*.stories.ts",
+  "**/*.stories.js",
+  "**/*.stories.jsx"
+],
   "types": ["jest", "@testing-library/jest-dom"]
 }
