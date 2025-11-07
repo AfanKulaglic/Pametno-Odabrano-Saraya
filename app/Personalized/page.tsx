@@ -11,7 +11,7 @@ import ErrorFallback from "../components/ErrorFallback";
 async function getCollection(isLoggedIn: boolean): Promise<CollectionResponse> {
   const endpoint = isLoggedIn
     ? "http://localhost:3000/api/pametno-odabrano/loggedin"
-    : "http://localhost:3000/api/pametno-odabrano/collections";
+    : "https://mocki.io/v1/1f204200-7e0b-47fa-8a76-3ce97a3ecfd8";
 
   const res = await fetch(endpoint, { cache: "no-store" });
   if (!res.ok) throw new Error("Greška pri dohvaćanju kolekcije");
