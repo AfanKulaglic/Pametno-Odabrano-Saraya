@@ -24,3 +24,29 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.category-card {
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  transition: transform 0.5s ease-in-out;
+}
+
+.flip-animate {
+  animation: card-flip 0.4s ease-in-out forwards;
+}
+
+@keyframes card-flip {
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(90deg);
+  }
+  100% {
+    transform: rotateY(0deg);
+  }
+}
+
+
+
+

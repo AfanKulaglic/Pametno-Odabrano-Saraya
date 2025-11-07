@@ -1,0 +1,1323 @@
+{
+  "collection": {
+    "id": "collection_editors_picks",
+    "title": "Pametno odabrano: Urednički izbor",
+    "subtitle": "Najbolji proizvodi koje preporučuje naše uredništvo",
+    "intro": "Ova kolekcija donosi pažljivo odabrane uređaje koji spajaju performanse, stil i vrijednost. Istraži proizvode koji su zaslužili naše povjerenje.",
+    "background_image": "/assets/editors-hero.jpg"
+  },
+  "categories": [
+    [
+      {
+        "name": "Pametni uređaji",
+        "text": "Ostanite povezani gdje god se nalazili",
+        "image": "/assets/pametniUredjaji.jpg"
+      },
+      {
+        "name": "Snaga zvuka",
+        "text": "Kvalitetan zvuk za svaki trenutak",
+        "image": "/assets/snagaZvuka.jpg"
+      },
+      {
+        "name": "Vizuelna Elegancija",
+        "text": "Proizvodi koji oduševljavaju estetikom",
+        "image": "/assets/vizualnaElegancija.jpg"
+      },
+      {
+        "name": "Dom pun doživljaja",
+        "text": "Vaši podaci su uvijek zaštićeni",
+        "image": "/assets/domPunDozivljaja.jpg"
+      },
+      {
+        "name": "Uhvatite svaki trenutak",
+        "text": "Zabilježite svaki trenutak avanture",
+        "image": "/assets/uhvatiteSvakiTrenutak.jpg"
+      },
+      {
+        "name": "Kontrola na dohvat ruke",
+        "text": "Tehnologija koja olakšava život kod kuće",
+        "image": "/assets/kontrolaNaDohvatRuke.jpg"
+      }
+    ]    
+  ],
+  "brands": [
+    {
+      "id": "brand_200",
+      "name": "Apple",
+      "logo": "https://yt3.googleusercontent.com/s5hlNKKDDQWjFGzYNnh8UeOW2j2w6id-cZGx7GdAA3d5Fu7zEi7ZMXEyslysuQUKigXNxtAB=s900-c-k-c0x00ffffff-no-rj",
+      "description": "Apple je sinonim za naprednu tehnologiju, moderan dizajn i pouzdane performanse. Njihovi uređaji spajaju inovaciju i praktičnost, pružajući korisnicima besprijekorno iskustvo u svakodnevnom životu i radu.",
+      "marketplace_url": "https://saraya.example/companies/company_200",
+      "founded": "2012",
+      "headquarters": "Sarajevo, Bosna i Hercegovina",
+      "values": [
+        "Inovacija",
+        "Dizajn",
+        "Održivost"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "item_501",
+      "type": "product",
+      "category": "Pametni uređaji",
+      "order": 20,
+      "title": "Galaxy Book4 — Power in Every Detail.",
+      "ranking_score": 0.87,
+      "tags": [
+        "outdoor",
+        "eco",
+        "travel"
+      ],
+      "published_at": "2025-10-10T09:00:00Z",
+      "short_description": "15\" ekran, i7 CPU, 16GB RAM, 512GB SSD",
+      "long_description": "X200 Pro je dizajniran za profesionalce koji traže ravnotežu između performansi i mobilnosti. Kućište od aluminijuma, dugotrajna baterija i vrhunski ekran čine ga idealnim za rad i zabavu.",
+      "key_features": [
+        "Intel i7 12th Gen procesor",
+        "16 GB DDR5 RAM",
+        "512 GB NVMe SSD",
+        "Full HD 15.6\" ekran",
+        "Trajanje baterije do 10h"
+      ],
+      "specifications": {
+        "procesor": "Intel Core i7-12700H",
+        "ram": "16GB DDR5",
+        "storage": "512GB SSD",
+        "ekran": "15.6\" Full HD IPS",
+        "baterija": "82 Wh"
+      },
+      "price": 1299.99,
+      "currency": "EUR",
+      "image": {
+        "url": "/assets/galaxyBook4.jpg",
+        "alt": "Laptop X200 Pro",
+        "width": 800,
+        "height": 600
+      },
+      "gallery": [
+        "/assets/laptop.jpg",
+        "/assets/laptop1.jpg",
+        "/assets/laptop2.jpg"
+      ],
+      "company": {
+        "id": "company_200",
+        "name": "Apple",
+        "logo": "https://yt3.googleusercontent.com/s5hlNKKDDQWjFGzYNnh8UeOW2j2w6id-cZGx7GdAA3d5Fu7zEi7ZMXEyslysuQUKigXNxtAB=s900-c-k-c0x00ffffff-no-rj",
+        "marketplace_url": "https://saraya.example/companies/company_200"
+      },
+      "badges": [
+        "Urednički izbor",
+        "Top"
+      ],
+      "featured": true,
+      "cta": {
+        "url": "https://saraya.example/product/sku_501"
+      }
+    },
+    {
+      "id": "item_502",
+      "type": "product",
+      "category": "Pametni uređaji",
+      "order": 2,
+      "title": "iPhone 17 Pro Max — Beyond Brilliant.",
+      "ranking_score": 0.87,
+      "tags": [
+        "outdoor",
+        "eco",
+        "travel"
+      ],
+      "published_at": "2025-10-10T09:00:00Z",
+      "short_description": "6.5\" OLED, 128GB, 5G, Dual SIM",
+      "long_description": "Z5 donosi vrhunski OLED ekran i impresivne performanse u kompaktnom pakovanju. Uz 5G povezivost i dugi vijek baterije, idealan je za zahtjevne korisnike.",
+      "key_features": [
+        "6.5\" OLED ekran",
+        "5G podrška",
+        "128 GB memorije",
+        "Dual SIM",
+        "64 MP kamera"
+      ],
+      "specifications": {
+        "ekran": "6.5\" OLED, 120Hz",
+        "memorija": "128GB",
+        "kamera": "64 MP + 12 MP",
+        "baterija": "5000 mAh",
+        "procesor": "Snapdragon 8 Gen 1"
+      },
+      "price": 799.99,
+      "currency": "EUR",
+      "image": {
+        "url": "/assets/iphone17.jpg",
+        "alt": "Smartphone Z5",
+        "width": 800,
+        "height": 600
+      },
+      "gallery": [
+        "/assets/smartphone.jpg",
+        "/assets/smartphone1.jpg",
+        "/assets/smartphone2.jpg"
+      ],
+      "company": {
+        "id": "company_201",
+        "name": "Apple",
+        "logo": "https://yt3.googleusercontent.com/s5hlNKKDDQWjFGzYNnh8UeOW2j2w6id-cZGx7GdAA3d5Fu7zEi7ZMXEyslysuQUKigXNxtAB=s900-c-k-c0x00ffffff-no-rj",
+        "marketplace_url": "https://saraya.example/companies/company_201"
+      },
+      "badges": [
+        "Novo"
+      ],
+      "featured": false,
+      "cta": {
+        "url": "https://saraya.example/product/sku_502"
+      }
+    },
+    {
+      "id": "item_503",
+      "type": "product",
+      "category": "Snaga zvuka",
+      "order": 12,
+      "title": "AirPods 3 — Pure Sound. Pure Freedom.",
+      "ranking_score": 0.87,
+      "tags": [
+        "outdoor",
+        "eco",
+        "travel"
+      ],
+      "published_at": "2025-10-10T09:00:00Z",
+      "short_description": "Bluetooth 5.2, 30h battery, over-ear",
+      "long_description": "Slušalice sa aktivnim poništavanjem buke koje nude kristalno čist zvuk i udobnost za cjelodnevno nošenje. Idealne za putovanja i kancelariju.",
+      "key_features": [
+        "Bluetooth 5.2",
+        "Aktivno poništavanje buke",
+        "30 sati baterije",
+        "USB-C punjenje",
+        "Udobne memorijske jastučiće"
+      ],
+      "specifications": {
+        "konekcija": "Bluetooth 5.2",
+        "trajanje_baterije": "30h",
+        "punjenje": "USB-C",
+        "težina": "260g"
+      },
+      "price": 199.99,
+      "currency": "EUR",
+      "image": {
+        "url": "/assets/airPods3.jpeg",
+        "alt": "Wireless Headphones",
+        "width": 800,
+        "height": 600
+      },
+      "gallery": [
+        "/assets/headphones.jpg",
+        "/assets/headphones1.jpg",
+        "/assets/headphones2.jpg"
+      ],
+      "company": {
+        "id": "company_202",
+        "name": "SoundPro",
+        "logo": "https://yt3.googleusercontent.com/s5hlNKKDDQWjFGzYNnh8UeOW2j2w6id-cZGx7GdAA3d5Fu7zEi7ZMXEyslysuQUKigXNxtAB=s900-c-k-c0x00ffffff-no-rj",
+        "marketplace_url": "https://saraya.example/companies/company_202"
+      },
+      "badges": [
+        "Top"
+      ],
+      "featured": false,
+      "cta": {
+        "url": "https://saraya.example/product/sku_503"
+      }
+    },
+    {
+      "id": "item_504",
+      "type": "product",
+      "category": "Pametni uređaji",
+      "order": 1,
+      "title": "The New MacBook Pro — Beyond Performance.",
+      "ranking_score": 0.87,
+      "tags": [
+        "outdoor",
+        "eco",
+        "travel"
+      ],
+      "published_at": "2025-10-10T09:00:00Z",
+      "short_description": "27\" IPS, 60Hz, HDR10, 1ms response",
+      "long_description": "Kristalno čist prikaz i realne boje uz HDR10 podršku. Idealno rješenje za profesionalce i gamere.",
+      "key_features": [
+        "4K UHD rezolucija",
+        "IPS panel",
+        "HDR10",
+        "1ms odziv",
+        "USB-C priključak"
+      ],
+      "specifications": {
+        "ekran": "27\" IPS 4K UHD",
+        "osvježenje": "60Hz",
+        "odziv": "1ms",
+        "svjetlina": "400 nits"
+      },
+      "price": 349.99,
+      "currency": "EUR",
+      "image": {
+        "url": "/assets/aa.jpg",
+        "alt": "4K Monitor",
+        "width": 800,
+        "height": 600
+      },
+      "gallery": [
+        "/assets/monitor.jpg",
+        "/assets/monitor1.jpg",
+        "/assets/monitor2.jpg"
+      ],
+      "company": {
+        "id": "company_203",
+        "name": "Apple",
+        "logo": "https://yt3.googleusercontent.com/s5hlNKKDDQWjFGzYNnh8UeOW2j2w6id-cZGx7GdAA3d5Fu7zEi7ZMXEyslysuQUKigXNxtAB=s900-c-k-c0x00ffffff-no-rj",
+        "marketplace_url": "https://saraya.example/companies/company_203"
+      },
+      "badges": [
+        "Novo"
+      ],
+      "featured": true,
+      "cta": {
+        "url": "https://saraya.example/product/sku_504"
+      }
+    },
+    {
+      "id": "item_642",
+      "type": "product",
+      "category": "Pametni uređaji",
+      "order": 5,
+      "title": "Xiaomi Watch — Fitness. Focus. Freedom.",
+      "ranking_score": 0.87,
+      "tags": [
+        "outdoor",
+        "eco",
+        "travel"
+      ],
+      "published_at": "2025-10-10T09:00:00Z",
+      "short_description": "AMOLED ekran, GPS, praćenje sna, 10 dana baterije",
+      "long_description": "Smartwatch koji prati vaše zdravlje i aktivnosti. Snažna baterija, napredni senzori i elegantan dizajn za svakodnevno nošenje.",
+      "key_features": [
+        "AMOLED ekran",
+        "Praćenje sna",
+        "GPS",
+        "10 dana baterije",
+        "Vodootporan"
+      ],
+      "specifications": {
+        "ekran": "1.4\" AMOLED",
+        "baterija": "10 dana",
+        "vodootpornost": "5ATM",
+        "konekcija": "Bluetooth 5.1"
+      },
+      "price": 179.99,
+      "currency": "EUR",
+      "image": {
+        "url": "/assets/miWatch.jpg",
+        "alt": "Smart Fitness Watch",
+        "width": 800,
+        "height": 600
+      },
+      "gallery": [
+        "/assets/watch.jpg",
+        "/assets/watch.jpg",
+        "/assets/watch.jpg"
+      ],
+      "company": {
+        "id": "company_312",
+        "name": "Apple",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Xiaomi_logo_%282021-%29.svg/512px-Xiaomi_logo_%282021-%29.svg.png",
+        "marketplace_url": "https://saraya.example/companies/company_312"
+      },
+      "badges": [
+        "Novo"
+      ],
+      "featured": true,
+      "cta": {
+        "url": "https://saraya.example/product/sku_642"
+      }
+    },
+    {
+      "id": "item_643",
+      "type": "product",
+      "category": "Dom pun doživljaja",
+      "order": 15,
+      "title": "Arlo — Security in Sight.",
+      "ranking_score": 0.87,
+      "tags": [
+        "outdoor",
+        "eco",
+        "travel"
+      ],
+      "published_at": "2025-10-10T09:00:00Z",
+      "short_description": "1TB NVMe, USB-C 3.2, 1050MB/s",
+      "long_description": "Brz i pouzdan eksterni SSD koji omogućava munjevito kopiranje datoteka i sigurnu pohranu. Kompaktan, otporan na udarce i idealan za profesionalce u pokretu.",
+      "key_features": [
+        "NVMe SSD",
+        "USB-C 3.2 Gen 2",
+        "1050 MB/s brzina čitanja",
+        "Metalno kućište",
+        "Otporan na udarce"
+      ],
+      "specifications": {
+        "kapacitet": "1TB",
+        "interfejs": "USB-C 3.2 Gen 2",
+        "brzina_čitanja": "1050 MB/s",
+        "brzina_pisanja": "1000 MB/s"
+      },
+      "price": 149.99,
+      "currency": "EUR",
+      "image": {
+        "url": "/assets/arlo.jpeg",
+        "alt": "Eksterni SSD 1TB",
+        "width": 800,
+        "height": 600
+      },
+      "gallery": [
+        "/assets/ssd.jpg",
+        "/assets/ssd1.jpg",
+        "/assets/ssd2.jpg"
+      ],
+      "company": {
+        "id": "company_313",
+        "name": "DataCore",
+        "logo": "https://community.arlo.com/t5/image/serverpage/image-id/27214i404B78741FACB7B3/image-size/large/is-moderation-mode/true?v=v2&px=999&whitelist-exif-data=Copyright",
+        "marketplace_url": "https://saraya.example/companies/company_313"
+      },
+      "badges": [
+        "Novo"
+      ],
+      "featured": false,
+      "cta": {
+        "url": "https://saraya.example/product/sku_643"
+      }
+    },
+    {
+      "id": "item_644",
+      "type": "product",
+      "category": "Kontrola na dohvat ruke",
+      "order": 7,
+      "title": "Logitech G305 — Precision in Every Click.",
+      "ranking_score": 0.87,
+      "tags": [
+        "outdoor",
+        "eco",
+        "travel"
+      ],
+      "published_at": "2025-10-10T09:00:00Z",
+      "short_description": "Hot-swap tasteri, RGB, aluminijsko kućište",
+      "long_description": "Visokokvalitetna mehanička tastatura sa hot-swap prekidačima, programabilnim RGB osvjetljenjem i čvrstim aluminijskim okvirom. Dizajnirana za igrače i profesionalce.",
+      "key_features": [
+        "Hot-swap prekidači",
+        "Full RGB osvjetljenje",
+        "Anti-ghosting",
+        "USB-C kabl",
+        "Ergonomski dizajn"
+      ],
+      "specifications": {
+        "prekidači": "Gateron Brown",
+        "materijal": "Aluminijum",
+        "konekcija": "USB-C",
+        "osvjetljenje": "RGB"
+      },
+      "price": 119.99,
+      "currency": "EUR",
+      "image": {
+        "url": "/assets/logitechG.jpg",
+        "alt": "Mehanička Tastatura K80",
+        "width": 800,
+        "height": 600
+      },
+      "gallery": [
+        "/assets/keyboard1.jpg",
+        "/assets/keyboard2.jpg",
+        "/assets/keyboard.jpg"
+      ],
+      "company": {
+        "id": "company_314",
+        "name": "Apple",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/1/17/Logitech_logo.svg",
+        "marketplace_url": "https://saraya.example/companies/company_314"
+      },
+      "badges": [
+        "Top"
+      ],
+      "featured": false,
+      "cta": {
+        "url": "https://saraya.example/product/sku_644"
+      }
+    },
+    {
+      "id": "item_645",
+      "type": "product",
+      "category": "Uhvatite svaki trenutak",
+      "order": 8,
+      "title": "Neewer CB60 RGB — Power That Paints Light.",
+      "ranking_score": 0.87,
+      "tags": [
+        "outdoor",
+        "eco",
+        "travel"
+      ],
+      "published_at": "2025-10-10T09:00:00Z",
+      "short_description": "5.3K video, HyperSmooth stabilizacija, vodootporna",
+      "long_description": "Uhvatite svaku avanturu u visokoj rezoluciji sa GoPro Hero X. Donosi naprednu stabilizaciju slike, vodootpornost do 10m i 5.3K video snimanje u HDR kvalitetu.",
+      "key_features": [
+        "5.3K HDR video",
+        "HyperSmooth 6.0 stabilizacija",
+        "Vodootporna do 10m",
+        "Glasovne komande",
+        "Wi-Fi + Bluetooth"
+      ],
+      "specifications": {
+        "video": "5.3K@60fps",
+        "vodootpornost": "10m",
+        "trajanje_baterije": "120 minuta",
+        "povezivost": "Wi-Fi, Bluetooth"
+      },
+      "price": 429.99,
+      "currency": "EUR",
+      "image": {
+        "url": "/assets/neewer.jpg",
+        "alt": "GoPro Hero X",
+        "width": 800,
+        "height": 600
+      },
+      "gallery": [
+        "/assets/actioncamera.jpg",
+        "/assets/actioncamera1.jpg",
+        "/assets/actioncamera2.jpg"
+      ],
+      "company": {
+        "id": "company_315",
+        "name": "Apple",
+        "logo": "https://1000logos.net/wp-content/uploads/2018/12/Gopro-Logo.png",
+        "marketplace_url": "https://saraya.example/companies/company_315"
+      },
+      "badges": [
+        "Novo",
+        "Outdoor"
+      ],
+      "featured": false,
+      "cta": {
+        "url": "https://saraya.example/product/sku_645"
+      }
+    },
+    {
+      "id": "item_646",
+      "type": "product",
+      "category": "Dom pun doživljaja",
+      "order": 9,
+      "title": "Amazon Echo — Smarter Living, Simplified.",
+      "ranking_score": 0.87,
+      "tags": [
+        "outdoor",
+        "eco",
+        "travel"
+      ],
+      "published_at": "2025-10-10T09:00:00Z",
+      "short_description": "Kontroliši svjetla, uređaje i sigurnost jednim dodirom",
+      "long_description": "Smart Home Hub Connect+ centralizuje sve tvoje pametne uređaje u jedan intuitivan sistem. Povezuje svjetla, brave, Uhvatite svaki trenutak i termostate putem Wi-Fi ili Zigbee mreže, omogućavajući potpunu kontrolu putem aplikacije ili glasovnih komandi.",
+      "key_features": [
+        "Podrška za Zigbee i Wi-Fi uređaje",
+        "Glasovne komande (Google Assistant / Alexa)",
+        "Automatizacije i scene",
+        "Sigurna enkripcija i cloud backup",
+        "Mobilna aplikacija za iOS i Android"
+      ],
+      "specifications": {
+        "konekcija": "Wi-Fi 2.4GHz / Zigbee 3.0",
+        "napajanje": "USB-C 5V",
+        "kompatibilnost": "Android / iOS / Alexa / Google Assistant",
+        "dimenzije": "95 × 95 × 25 mm"
+      },
+      "price": 129.99,
+      "currency": "EUR",
+      "image": {
+        "url": "/assets/amazonEcho.jpg",
+        "alt": "Smart Home Hub Connect+",
+        "width": 800,
+        "height": 600
+      },
+      "gallery": [
+        "/assets/smarthub.jpg",
+        "/assets/smarthub1.jpg",
+        "/assets/smarthub2.jpg"
+      ],
+      "company": {
+        "id": "company_315",
+        "name": "Apple",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Amazon_icon.svg",
+        "marketplace_url": "https://saraya.example/companies/company_315"
+      },
+      "badges": [
+        "Dom pun doživljaja",
+        "Preporuka urednika"
+      ],
+      "featured": false,
+      "cta": {
+        "url": "https://saraya.example/product/sku_643"
+      }
+    },
+    {
+      "id": "item_701",
+      "type": "product",
+      "category": "Pametni uređaji",
+      "order": 11,
+      "title": "Vivobook F1502Z — Boldly Brilliant.",
+      "ranking_score": 0.87,
+      "tags": [
+        "outdoor",
+        "eco",
+        "travel"
+      ],
+      "published_at": "2025-10-10T09:00:00Z",
+      "short_description": "Lagani 14'' ultrabook za rad i putovanja",
+      "long_description": "AirMax 14 kombinuje eleganciju i snagu u ultra-tankom kućištu. Savršen za rad u pokretu, sa brzim SSD-om i dugom autonomijom baterije. Idealno za profesionalce koji cijene mobilnost.",
+      "key_features": [
+        "14\" Full HD ekran",
+        "Intel i5 13th Gen",
+        "512GB SSD",
+        "All-day baterija"
+      ],
+      "image": {
+        "url": "/assets/asusVivobook.jpg",
+        "alt": "Ultrabook AirMax 14",
+        "width": 800,
+        "height": 600
+      },
+      "company": {
+        "id": "company_210",
+        "name": "SkyCompute",
+        "logo": "https://images.icon-icons.com/3911/PNG/512/asus_logo_icon_247542.png",
+        "marketplace_url": "https://saraya.example/companies/company_210"
+      },
+      "badges": [
+        "Novo",
+        "Urednički izbor"
+      ],
+      "featured": false,
+      "cta": {
+        "url": "https://saraya.example/product/sku_701"
+      }
+    },
+    {
+      "id": "item_702",
+      "type": "product",
+      "category": "Pametni uređaji",
+      "order": 10,
+      "title": "ROG Phone 9 — Play Without Limits.",
+      "ranking_score": 0.87,
+      "tags": [
+        "outdoor",
+        "eco",
+        "travel"
+      ],
+      "published_at": "2025-10-10T09:00:00Z",
+      "short_description": "6.7\" AMOLED, 256GB, 5G",
+      "long_description": "Nova A9 donosi fluidno iskustvo s AMOLED ekranom i naprednim AI kamerama. Dizajniran da kombinuje stil, snagu i izdržljivost uz brze 5G performanse.",
+      "key_features": [
+        "AMOLED 6.7\" ekran",
+        "AI trostruka kamera",
+        "256GB memorije",
+        "5G povezivost"
+      ],
+      "image": {
+        "url": "/assets/asusRogPhone.jpg",
+        "alt": "Smartphone Nova A9",
+        "width": 800,
+        "height": 600
+      },
+      "company": {
+        "id": "company_211",
+        "name": "FutureMobile",
+        "logo": "https://images.icon-icons.com/3911/PNG/512/asus_logo_icon_247542.png",
+        "marketplace_url": "https://saraya.example/companies/company_211"
+      },
+      "badges": [
+        "Novo"
+      ],
+      "featured": false,
+      "cta": {
+        "url": "https://saraya.example/product/sku_702"
+      }
+    },
+    {
+      "id": "item_703",
+      "type": "product",
+      "category": "Snaga zvuka",
+      "order": 3,
+      "title": "JBL — Feel the Sound.",
+      "ranking_score": 0.87,
+      "tags": [
+        "outdoor",
+        "eco",
+        "travel"
+      ],
+      "published_at": "2025-10-10T09:00:00Z",
+      "short_description": "360° zvuk, IPX7 vodootporan, 24h baterije",
+      "long_description": "Kompaktan, ali moćan prijenosni zvučnik koji pruža 360° zvuk i izuzetnu otpornost. Savršen za plažu, kuću ili avanture na otvorenom.",
+      "key_features": [
+        "360° stereo zvuk",
+        "Vodootporan IPX7",
+        "Bluetooth 5.3",
+        "24h trajanje baterije"
+      ],
+      "image": {
+        "url": "/assets/jblHeadphones.jpg",
+        "alt": "Bežični zvučnik SoundGo 360",
+        "width": 800,
+        "height": 600
+      },
+      "company": {
+        "id": "company_212",
+        "name": "AudioFlow",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/JBL-Logo.svg/2560px-JBL-Logo.svg.png",
+        "marketplace_url": "https://saraya.example/companies/company_212"
+      },
+      "badges": [
+        "Outdoor",
+        "Top"
+      ],
+      "featured": false,
+      "cta": {
+        "url": "https://saraya.example/product/sku_703"
+      }
+    },
+    {
+      "id": "item_704",
+      "type": "product",
+      "category": "Vizuelna Elegancija",
+      "order": 13,
+      "title": "ASUS Monitors — Power in Every Pixel.",
+      "ranking_score": 0.87,
+      "tags": [
+        "outdoor",
+        "eco",
+        "travel"
+      ],
+      "published_at": "2025-10-10T09:00:00Z",
+      "short_description": "34'' QHD, 100Hz, HDR, zakrivljen ekran",
+      "long_description": "Uživaj u panoramskom prikazu i realnim bojama sa VisionX UltraWide monitorom. Savršen za multitasking, dizajn i gaming iskustvo.",
+      "key_features": [
+        "34'' QHD zakrivljeni ekran",
+        "HDR podrška",
+        "100Hz refresh rate",
+        "USB-C povezivanje"
+      ],
+      "image": {
+        "url": "/assets/asusMonitor.jpg",
+        "alt": "Curved 34'' UltraWide Monitor VisionX",
+        "width": 800,
+        "height": 600
+      },
+      "company": {
+        "id": "company_213",
+        "name": "DisplayForge",
+        "logo": "https://yt3.googleusercontent.com/s5hlNKKDDQWjFGzYNnh8UeOW2j2w6id-cZGx7GdAA3d5Fu7zEi7ZMXEyslysuQUKigXNxtAB=s900-c-k-c0x00ffffff-no-rj",
+        "marketplace_url": "https://saraya.example/companies/company_213"
+      },
+      "badges": [
+        "Top",
+        "Urednički izbor"
+      ],
+      "featured": false,
+      "cta": {
+        "url": "https://saraya.example/product/sku_704"
+      }
+    },
+    {
+      "id": "item_705",
+      "type": "product",
+      "category": "Pametni uređaji",
+      "order": 14,
+      "title": "Smartwatch PulseX 2",
+      "ranking_score": 0.87,
+      "tags": [
+        "outdoor",
+        "eco",
+        "travel"
+      ],
+      "published_at": "2025-10-10T09:00:00Z",
+      "short_description": "Napredno praćenje zdravlja i treninga",
+      "long_description": "PulseX 2 donosi sofisticirano praćenje pulsa, stresa i sna. Uz elegantan dizajn i otpornost na vodu, postaje vaš svakodnevni trener i asistent.",
+      "key_features": [
+        "Senzori za zdravlje",
+        "Analiza sna",
+        "GPS praćenje",
+        "Vodootporan dizajn"
+      ],
+      "image": {
+        "url": "/assets/appleWatch7.jpg",
+        "alt": "Smartwatch PulseX 2",
+        "width": 800,
+        "height": 600
+      },
+      "company": {
+        "id": "company_214",
+        "name": "FitLife",
+        "logo": "https://yt3.googleusercontent.com/s5hlNKKDDQWjFGzYNnh8UeOW2j2w6id-cZGx7GdAA3d5Fu7zEi7ZMXEyslysuQUKigXNxtAB=s900-c-k-c0x00ffffff-no-rj",
+        "marketplace_url": "https://saraya.example/companies/company_214"
+      },
+      "badges": [
+        "Novo",
+        "Fitness"
+      ],
+      "featured": false,
+      "cta": {
+        "url": "https://saraya.example/product/sku_705"
+      }
+    },
+    {
+      "id": "item_706",
+      "type": "product",
+      "category": "Dom pun doživljaja",
+      "order": 6,
+      "title": "iRobot — Cleaning, Redefined.",
+      "ranking_score": 0.87,
+      "tags": [
+        "outdoor",
+        "eco",
+        "travel"
+      ],
+      "published_at": "2025-10-10T09:00:00Z",
+      "short_description": "Šifrovana pohrana i brzi prijenos podataka",
+      "long_description": "SecureDrive donosi dodatnu sigurnost zahvaljujući AES-256 enkripciji i fizičkom PIN zaključavanju. Pouzdan izbor za one kojima je sigurnost podataka prioritet.",
+      "key_features": [
+        "2TB kapacitet",
+        "USB 3.2 povezivanje",
+        "AES-256 enkripcija",
+        "PIN zaštita"
+      ],
+      "image": {
+        "url": "/assets/irobot.jpg",
+        "alt": "Portable HDD 2TB SecureDrive",
+        "width": 800,
+        "height": 600
+      },
+      "company": {
+        "id": "company_215",
+        "name": "DataLock",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/9/9e/IRobot_Logo_CMYK.jpg",
+        "marketplace_url": "https://saraya.example/companies/company_215"
+      },
+      "badges": [
+        "Sigurnost",
+        "Novo"
+      ],
+      "featured": false,
+      "cta": {
+        "url": "https://saraya.example/product/sku_706"
+      }
+    },
+    {
+      "id": "item_707",
+      "type": "product",
+      "category": "Kontrola na dohvat ruke",
+      "order": 16,
+      "title": "Keychron K2 — Where Design Meets Precision.",
+      "ranking_score": 0.87,
+      "tags": [
+        "outdoor",
+        "eco",
+        "travel"
+      ],
+      "published_at": "2025-10-10T09:00:00Z",
+      "short_description": "Tanka bežična tastatura s elegantnim dizajnom",
+      "long_description": "NeoSlim donosi minimalistički dizajn i tihu tipkanje udobnost. Idealna za uredske prostore i moderne radne površine.",
+      "key_features": [
+        "Bežična povezanost",
+        "Tanki profil",
+        "Tihi tasteri",
+        "Dugotrajna baterija"
+      ],
+      "image": {
+        "url": "/assets/keychron.jpg",
+        "alt": "Low-profile Tastatura NeoSlim",
+        "width": 800,
+        "height": 600
+      },
+      "company": {
+        "id": "company_216",
+        "name": "KeyWave",
+        "logo": "https://yt3.googleusercontent.com/s5hlNKKDDQWjFGzYNnh8UeOW2j2w6id-cZGx7GdAA3d5Fu7zEi7ZMXEyslysuQUKigXNxtAB=s900-c-k-c0x00ffffff-no-rj",
+        "marketplace_url": "https://saraya.example/companies/company_216"
+      },
+      "badges": [
+        "Minimalistično",
+        "Novo"
+      ],
+      "featured": false,
+      "cta": {
+        "url": "https://saraya.example/product/sku_707"
+      }
+    },
+    {
+      "id": "item_708",
+      "type": "product",
+      "category": "Uhvatite svaki trenutak",
+      "order": 17,
+      "title": "Lumix — Every Shot, a Story.",
+      "ranking_score": 0.87,
+      "tags": [
+        "outdoor",
+        "eco",
+        "travel"
+      ],
+      "published_at": "2025-10-10T09:00:00Z",
+      "short_description": "APS-C senzor, 4K video, izmjenjivi objektivi",
+      "long_description": "Lumina S1 nudi vrhunsku kvalitetu slike i precizni autofokus. Kompaktna, ali profesionalna kamera za entuzijaste i stvaraoce sadržaja.",
+      "key_features": [
+        "APS-C senzor",
+        "4K video snimanje",
+        "Brzi autofokus",
+        "Wi-Fi prenos fotografija"
+      ],
+      "image": {
+        "url": "/assets/lumix.jpg",
+        "alt": "Mirrorless Kamera Lumina S1",
+        "width": 800,
+        "height": 600
+      },
+      "company": {
+        "id": "company_217",
+        "name": "OptiCore",
+        "logo": "https://i0.wp.com/naturalexposures.com/wp-content/uploads/2016/11/Panasonic-LUMIX-Logo.png?fit=399%2C191&ssl=1",
+        "marketplace_url": "https://saraya.example/companies/company_217"
+      },
+      "badges": [
+        "Pro",
+        "Urednički izbor"
+      ],
+      "featured": false,
+      "cta": {
+        "url": "https://saraya.example/product/sku_708"
+      }
+    },
+    {
+      "id": "item_709",
+      "type": "product",
+      "category": "Dom pun doživljaja",
+      "order": 18,
+      "title": "Smart Lighting Kit AmbiLux",
+      "ranking_score": 0.87,
+      "tags": [
+        "outdoor",
+        "eco",
+        "travel"
+      ],
+      "published_at": "2025-10-10T09:00:00Z",
+      "short_description": "Personalizirano osvjetljenje sa mobilnom kontrolom",
+      "long_description": "AmbiLux omogućava stvaranje prilagođene atmosfere u svakom prostoru. Sinkroniziraj svjetla s muzikom, glasom ili rutinama – sve u jednoj aplikaciji.",
+      "key_features": [
+        "RGB svjetla sa scenama",
+        "Kontrola putem aplikacije",
+        "Kompatibilno s Alexa i Google Home",
+        "Niska potrošnja energije"
+      ],
+      "image": {
+        "url": "/assets/philipsSmartHue.jpg",
+        "alt": "Smart Lighting Kit AmbiLux",
+        "width": 800,
+        "height": 600
+      },
+      "company": {
+        "id": "company_218",
+        "name": "HomeLink",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Philips_logo.svg/2560px-Philips_logo.svg.png",
+        "marketplace_url": "https://saraya.example/companies/company_218"
+      },
+      "badges": [
+        "Dom pun doživljaja",
+        "Novo"
+      ],
+      "featured": false,
+      "cta": {
+        "url": "https://saraya.example/product/sku_709"
+      }
+    },
+    {
+      "id": "item_710",
+      "type": "product",
+      "category": "Vizuelna Elegancija",
+      "order": 19,
+      "title": "Philips Series 7303 — Every Color Comes Alive.",
+      "ranking_score": 0.87,
+      "tags": [
+        "outdoor",
+        "eco",
+        "travel"
+      ],
+      "published_at": "2025-10-10T09:00:00Z",
+      "short_description": "Lagani 14'' ultrabook za rad i putovanja",
+      "long_description": "AirMax 14 kombinuje mobilnost, performanse i premium dizajn. Idealno rješenje za poslovne korisnike i studente kojima je važna dugotrajna baterija i brz rad.",
+      "key_features": [
+        "Intel i5 procesor 13. generacije",
+        "14'' Full HD ekran",
+        "8GB RAM + 512GB SSD",
+        "Aluminijsko kućište",
+        "Baterija do 12h"
+      ],
+      "image": {
+        "url": "/assets/philips7303.jpg",
+        "alt": "Ultrabook AirMax 14",
+        "width": 800,
+        "height": 600
+      },
+      "company": {
+        "id": "company_401",
+        "name": "Apple",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Philips_logo.svg/2560px-Philips_logo.svg.png",
+        "marketplace_url": "https://saraya.example/companies/company_401"
+      },
+      "badges": [
+        "Novo",
+        "Urednički izbor"
+      ],
+      "featured": false,
+      "cta": {
+        "url": "https://saraya.example/product/sku_710"
+      }
+    },
+    {
+      "id": "item_711",
+      "type": "product",
+      "category": "Pametni uređaji",
+      "order": 24,
+      "title": "Galaxy S25 Series — Capture the Future.",
+      "ranking_score": 0.87,
+      "tags": [
+        "outdoor",
+        "eco",
+        "travel"
+      ],
+      "published_at": "2025-10-10T09:00:00Z",
+      "short_description": "6.7\" AMOLED, 256GB, 5G",
+      "long_description": "Nova A9 spaja moderan dizajn, impresivan AMOLED ekran i moćnu kameru. Uz 5G povezivost i brz procesor, ovaj uređaj je spreman za svaku avanturu.",
+      "key_features": [
+        "6.7'' AMOLED ekran",
+        "256GB interne memorije",
+        "5G povezivost",
+        "64MP glavna kamera",
+        "Brzo punjenje 65W"
+      ],
+      "image": {
+        "url": "/assets/samsungS25.jpg",
+        "alt": "Smartphone Nova A9",
+        "width": 800,
+        "height": 600
+      },
+      "company": {
+        "id": "company_402",
+        "name": "MobileTech",
+        "logo": "https://cdn.freebiesupply.com/logos/large/2x/samsung-1-logo-png-transparent.png",
+        "marketplace_url": "https://saraya.example/companies/company_402"
+      },
+      "badges": [
+        "Novo"
+      ],
+      "featured": false,
+      "cta": {
+        "url": "https://saraya.example/product/sku_711"
+      }
+    },
+    {
+      "id": "item_712",
+      "type": "product",
+      "category": "Snaga zvuka",
+      "order": 21,
+      "title": "DJM-A9 — Command the Crowd.",
+      "ranking_score": 0.87,
+      "tags": [
+        "outdoor",
+        "eco",
+        "travel"
+      ],
+      "published_at": "2025-10-10T09:00:00Z",
+      "short_description": "360° zvuk, IPX7 vodootporan, 24h baterije",
+      "long_description": "SoundGo 360 donosi snažan i čist zvuk u prenosivom formatu. Vodootporan dizajn i duga autonomija baterije ga čine idealnim saputnikom za svaku priliku.",
+      "key_features": [
+        "360° stereo zvuk",
+        "IPX7 vodootporan",
+        "24 sata trajanja baterije",
+        "Bluetooth 5.3",
+        "Ugrađeni mikrofon"
+      ],
+      "image": {
+        "url": "/assets/pioneerDJ.jpg",
+        "alt": "Bežični zvučnik SoundGo 360",
+        "width": 800,
+        "height": 600
+      },
+      "company": {
+        "id": "company_403",
+        "name": "SoundPro",
+        "logo": "https://static.wikia.nocookie.net/sailormoonenglishanime/images/c/c0/Pioneer_Logo.png/revision/latest?cb=20210203220325",
+        "marketplace_url": "https://saraya.example/companies/company_403"
+      },
+      "badges": [
+        "Top",
+        "Outdoor"
+      ],
+      "featured": false,
+      "cta": {
+        "url": "https://saraya.example/product/sku_712"
+      }
+    },
+    {
+      "id": "item_713",
+      "type": "product",
+      "category": "Vizuelna Elegancija",
+      "order": 22,
+      "title": "Samsung Neo QLED 8K — Infinite Contrast. Absolute Clarity.",
+      "ranking_score": 0.87,
+      "tags": [
+        "outdoor",
+        "eco",
+        "travel"
+      ],
+      "published_at": "2025-10-10T09:00:00Z",
+      "short_description": "34'' QHD, 100Hz, HDR, zakrivljen ekran",
+      "long_description": "VisionX nudi široko vidno polje i izuzetnu jasnoću slike zahvaljujući QHD rezoluciji i HDR podršci. Savršen izbor za multitasking, rad i zabavu.",
+      "key_features": [
+        "34'' zakrivljen QHD ekran",
+        "100Hz osvježenje",
+        "HDR podrška",
+        "USB-C povezivanje",
+        "Ergonomsko postolje"
+      ],
+      "image": {
+        "url": "/assets/samsungNeoQled.jpg",
+        "alt": "Curved 34'' UltraWide Monitor VisionX",
+        "width": 800,
+        "height": 600
+      },
+      "company": {
+        "id": "company_404",
+        "name": "DisplayTech",
+        "logo": "https://cdn.freebiesupply.com/logos/large/2x/samsung-1-logo-png-transparent.png",
+        "marketplace_url": "https://saraya.example/companies/company_404"
+      },
+      "badges": [
+        "Top",
+        "Urednički izbor"
+      ],
+      "featured": false,
+      "cta": {
+        "url": "https://saraya.example/product/sku_713"
+      }
+    },
+    {
+      "id": "item_714",
+      "type": "product",
+      "category": "Pametni uređaji",
+      "order": 4,
+      "title": "Galaxy Watch 8 — Time Meets Intelligence.",
+      "ranking_score": 0.87,
+      "tags": [
+        "outdoor",
+        "eco",
+        "travel"
+      ],
+      "published_at": "2025-10-10T09:00:00Z",
+      "short_description": "Napredno praćenje zdravlja i treninga",
+      "long_description": "PulseX 2 donosi precizno mjerenje otkucaja srca, praćenje sna i više od 100 sportskih načina rada. Dizajniran za aktivan životni stil.",
+      "key_features": [
+        "AMOLED ekran",
+        "Praćenje zdravlja i stresa",
+        "GPS + GLONASS",
+        "Otpornost na vodu 5ATM",
+        "Brzo magnetno punjenje"
+      ],
+      "image": {
+        "url": "/assets/galaxyWatch8.jpg",
+        "alt": "Smartwatch PulseX 2",
+        "width": 800,
+        "height": 600
+      },
+      "company": {
+        "id": "company_405",
+        "name": "TechPulse",
+        "logo": "https://cdn.freebiesupply.com/logos/large/2x/samsung-1-logo-png-transparent.png",
+        "marketplace_url": "https://saraya.example/companies/company_405"
+      },
+      "badges": [
+        "Novo",
+        "Fitness"
+      ],
+      "featured": false,
+      "cta": {
+        "url": "https://saraya.example/product/sku_714"
+      }
+    },
+    {
+      "id": "item_715",
+      "type": "product",
+      "category": "Dom pun doživljaja",
+      "order": 24,
+      "title": "Google Nest Cam — Always Watching. Always Ready.",
+      "ranking_score": 0.87,
+      "tags": [
+        "outdoor",
+        "eco",
+        "travel"
+      ],
+      "published_at": "2025-10-10T09:00:00Z",
+      "short_description": "Šifrovana pohrana i brzi prijenos podataka",
+      "long_description": "SecureDrive HDD pruža naprednu AES 256-bitnu enkripciju i pouzdan prenos podataka uz USB 3.2 brzine. Savršeno za profesionalce kojima je sigurnost prioritet.",
+      "key_features": [
+        "2TB kapacitet",
+        "AES 256-bit enkripcija",
+        "USB 3.2 interfejs",
+        "Metalno kućište",
+        "Shock-proof dizajn"
+      ],
+      "image": {
+        "url": "/assets/googleNestCam.jpg",
+        "alt": "Portable HDD 2TB SecureDrive",
+        "width": 800,
+        "height": 600
+      },
+      "company": {
+        "id": "company_406",
+        "name": "DataCore",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/2048px-Google_%22G%22_logo.svg.png",
+        "marketplace_url": "https://saraya.example/companies/company_406"
+      },
+      "badges": [
+        "Novo",
+        "Sigurnost"
+      ],
+      "featured": false,
+      "cta": {
+        "url": "https://saraya.example/product/sku_715"
+      }
+    },
+    {
+      "id": "item_716",
+      "type": "product",
+      "category": "Kontrola na dohvat ruke",
+      "order": 25,
+      "title": "Epson EcoTank Pro — Print Smarter. Work Faster.",
+      "ranking_score": 0.87,
+      "tags": [
+        "outdoor",
+        "eco",
+        "travel"
+      ],
+      "published_at": "2025-10-10T09:00:00Z",
+      "short_description": "Tanka bežična tastatura s elegantnim dizajnom",
+      "long_description": "NeoSlim donosi minimalistički dizajn i tiho kucanje. Idealan dodatak modernim radnim prostorima zahvaljujući dugotrajnoj bateriji i Bluetooth povezivanju.",
+      "key_features": [
+        "Bežična Bluetooth konekcija",
+        "Slim dizajn",
+        "Tihi tasteri",
+        "Dugotrajna baterija",
+        "Metalni okvir"
+      ],
+      "image": {
+        "url": "/assets/epsonPrinter.jpg",
+        "alt": "Low-profile Tastatura NeoSlim",
+        "width": 800,
+        "height": 600
+      },
+      "company": {
+        "id": "company_407",
+        "name": "KeyForge",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/6/67/Epson_Logo.png",
+        "marketplace_url": "https://saraya.example/companies/company_407"
+      },
+      "badges": [
+        "Minimalistično",
+        "Novo"
+      ],
+      "featured": false,
+      "cta": {
+        "url": "https://saraya.example/product/sku_716"
+      }
+    },
+    {
+      "id": "item_717",
+      "type": "product",
+      "category": "Uhvatite svaki trenutak",
+      "order": 26,
+      "title": "GoPro — Every Angle. Every Adventure.",
+      "ranking_score": 0.87,
+      "tags": [
+        "outdoor",
+        "eco",
+        "travel"
+      ],
+      "published_at": "2025-10-10T09:00:00Z",
+      "short_description": "APS-C senzor, 4K video, izmjenjivi objektivi",
+      "long_description": "Lumina S1 kombinuje vrhunsku kvalitetu slike i prenosivost. Zahvaljujući velikom senzoru i preciznom autofokusu, idealna je za fotografe i vlogere.",
+      "key_features": [
+        "APS-C senzor",
+        "4K snimanje",
+        "Wi-Fi i Bluetooth",
+        "Izmjenjivi objektivi",
+        "Ugrađena stabilizacija slike"
+      ],
+      "image": {
+        "url": "/assets/goPro.jpg",
+        "alt": "Mirrorless Kamera Lumina S1",
+        "width": 800,
+        "height": 600
+      },
+      "company": {
+        "id": "company_408",
+        "name": "GoPro",
+        "logo": "https://1000logos.net/wp-content/uploads/2018/12/Gopro-Logo.png",
+        "marketplace_url": "https://saraya.example/companies/company_408"
+      },
+      "badges": [
+        "Pro",
+        "Urednički izbor"
+      ],
+      "featured": false,
+      "cta": {
+        "url": "https://saraya.example/product/sku_717"
+      }
+    },
+    {
+      "id": "item_718",
+      "type": "product",
+      "category": "Dom pun doživljaja",
+      "order": 27,
+      "title": "HomePod — Smart Never Sounded So Good.",
+      "ranking_score": 0.87,
+      "tags": [
+        "outdoor",
+        "eco",
+        "travel"
+      ],
+      "published_at": "2025-10-10T09:00:00Z",
+      "short_description": "Personalizirano osvjetljenje sa mobilnom kontrolom",
+      "long_description": "AmbiLux omogućava stvaranje prilagođene atmosfere u svakom prostoru. Sinkroniziraj svjetla s muzikom, glasom ili rutinama – sve u jednoj aplikaciji.",
+      "key_features": [
+        "RGB svjetla sa scenama",
+        "Kontrola putem aplikacije",
+        "Kompatibilno s Alexa i Google Home",
+        "Niska potrošnja energije"
+      ],
+      "image": {
+        "url": "/assets/HomePod.jpeg",
+        "alt": "Smart Lighting Kit AmbiLux",
+        "width": 800,
+        "height": 600
+      },
+      "company": {
+        "id": "company_409",
+        "name": "HomeLink",
+        "logo": "https://yt3.googleusercontent.com/s5hlNKKDDQWjFGzYNnh8UeOW2j2w6id-cZGx7GdAA3d5Fu7zEi7ZMXEyslysuQUKigXNxtAB=s900-c-k-c0x00ffffff-no-rj",
+        "marketplace_url": "https://saraya.example/companies/company_409"
+      },
+      "badges": [
+        "Dom pun doživljaja",
+        "Novo"
+      ],
+      "featured": false,
+      "cta": {
+        "url": "https://saraya.example/product/sku_718"
+      }
+    }
+  ]
+}
