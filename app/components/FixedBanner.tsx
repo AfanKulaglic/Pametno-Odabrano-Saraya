@@ -51,7 +51,7 @@ export default function FixedBanner({
         <img
           src={imgUrl}
           alt="Ad Banner"
-          className="w-full max-w-md rounded-xl shadow-lg border border-gray-200 object-cover"
+          className="w-[19vh] max-w-md rounded-xl shadow-lg border border-gray-200 object-cover"
         />
       </div>
     );
