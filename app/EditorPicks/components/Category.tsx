@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Item } from "../../lib/types";
 import { trackEvent } from "../../lib/analytics";
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 interface Props {
   category: string;
@@ -64,20 +65,29 @@ export default function CategoryGrid({
 
   const cards = document.querySelectorAll(".category-card");
 
-  const triggerFlip = () => {
-    // 🔹 1. Pokreni flip animaciju
-    cards.forEach((card) => card.classList.add("flip-animate"));
+  const triggerFlip = (direction: "next" | "prev" = "next") => {
+  if (categoryItems.length <= 3) return;
+  
+  const cards = document.querySelectorAll(".category-card");
+  
+  // Dodaj klasu za animaciju
+  cards.forEach((card) => card.classList.add("flip-animate"));
+  
+  // Promijeni startIndex nakon pola animacije
+  setTimeout(() => {
+    setStartIndex((prev) =>
+      direction === "next"
+        ? (prev + 3) % categoryItems.length
+        : (prev - 3 + categoryItems.length) % categoryItems.length
+    );
+  }, 350);
+  
+  // Ukloni klasu nakon animacije
+  setTimeout(() => {
+    cards.forEach((card) => card.classList.remove("flip-animate"));
+  }, 700);
+};
 
-    // 🔹 2. Na pola animacije promijeni sadržaj
-    setTimeout(() => {
-      setStartIndex((prev) => (prev + 3) % categoryItems.length);
-    }, 350);
-
-    // 🔹 3. Kad animacija završi, ukloni flip klasu
-    setTimeout(() => {
-      cards.forEach((card) => card.classList.remove("flip-animate"));
-    }, 700);
-  };
 
   // Pokreni automatski flip na intervalu
   const interval = setInterval(triggerFlip, 5000);
@@ -88,9 +98,34 @@ export default function CategoryGrid({
 
   return (
     <div>
-      <h2 className="text-3xl font-bold uppercase border-b-2 border-gray-900 inline-block mb-10 pb-1">
-        {category}
-      </h2>
+      <div className="flex items-center justify-between mb-10">
+  <h2 className="text-3xl font-bold uppercase border-b-2 border-gray-900 inline-block pb-1">
+    {category}
+  </h2>
+
+  {/* Strelice */}
+  <div className="flex space-x-3">
+    <button
+      onClick={() =>
+        setStartIndex((prev) =>
+          (prev - 3 + categoryItems.length) % categoryItems.length
+        )
+      }
+      className="cursor-pointer bg-gray-900 p-3 rounded-full shadow-lg hover:bg-gray-800 transition"
+    >
+      <FaChevronLeft className="text-white text-lg" />
+    </button>
+    <button
+      onClick={() =>
+        setStartIndex((prev) => (prev + 3) % categoryItems.length)
+      }
+      className="cursor-pointer bg-gray-900 p-3 rounded-full shadow-lg hover:bg-gray-800 transition"
+    >
+      <FaChevronRight className="text-white text-lg" />
+    </button>
+  </div>
+</div>
+
 
       {loading ? (
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">

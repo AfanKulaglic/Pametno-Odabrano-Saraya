@@ -15,12 +15,15 @@ export default function FixedBanner({
   hideAt = 2000,
 }: FixedBannerProps) {
   const [visible, setVisible] = useState(false);
-  const [isDesktop, setIsDesktop] = useState(false);
+  const [screenType, setScreenType] = useState<"mobile" | "tablet" | "desktop">("desktop");
 
-  // ✅ Provjera širine ekrana — desktop vs mobilni
+  // ✅ Provjera širine ekrana
   useEffect(() => {
     const checkScreenSize = () => {
-      setIsDesktop(window.innerWidth >= 1024);
+      const w = window.innerWidth;
+      if (w >= 1024) setScreenType("desktop");
+      else if (w >= 768) setScreenType("tablet");
+      else setScreenType("mobile");
     };
 
     checkScreenSize();
@@ -29,9 +32,9 @@ export default function FixedBanner({
     return () => window.removeEventListener("resize", checkScreenSize);
   }, []);
 
-  // ✅ Scroll logika — samo za desktop prikaz
+  // ✅ Scroll logika samo za desktop
   useEffect(() => {
-    if (!isDesktop) return;
+    if (screenType !== "desktop") return;
 
     const handleScroll = () => {
       const scrollY = window.scrollY;
@@ -42,22 +45,24 @@ export default function FixedBanner({
     handleScroll();
 
     return () => window.removeEventListener("scroll", handleScroll);
-  }, [isDesktop, showAt, hideAt]);
+  }, [screenType, showAt, hideAt]);
 
-  // 🔹 MOBILNI / TABLET prikaz (inline)
-  if (!isDesktop) {
+  // 🔹 Mobile / Tablet prikaz (inline)
+  if (screenType !== "desktop") {
     return (
       <div className="w-full flex justify-center my-6 px-4">
         <img
           src={imgUrl}
           alt="Ad Banner"
-          className="w-[19vh] max-w-md rounded-xl shadow-lg border border-gray-200 object-cover"
+          className={`rounded-xl shadow-lg border border-gray-200 object-cover ${
+            screenType === "tablet" ? "w-[25vh] max-w-lg" : "w-[19vh] max-w-md"
+          }`}
         />
       </div>
     );
   }
 
-  // 🔹 DESKTOP prikaz (fixed)
+  // 🔹 Desktop prikaz (fixed)
   return (
     <AnimatePresence>
       {visible && (
