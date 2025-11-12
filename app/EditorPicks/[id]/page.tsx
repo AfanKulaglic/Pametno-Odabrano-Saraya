@@ -10,7 +10,7 @@ async function getCollection(): Promise<CollectionResponse> {
     typeof window === "undefined"
       ? "http://localhost:3000"
       : window.location.origin;
-  const res = await fetch(`${baseUrl}/api/pametno-odabrano/collections`, {
+  const res = await fetch(`https://mocki.io/v1/44fb156f-2227-4f3e-a5e4-d730f5d3d45b`, {
     cache: "no-store",
   });
   return res.json();
