@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Item } from "../../lib/types";
 import { trackEvent } from "../../lib/analytics";
+import router from "next/router";
 
 interface Props {
   featuredItems: Item[];
@@ -38,13 +39,15 @@ export default function FeaturedGrid({ featuredItems, collectionId, loading }: P
                 prefetch={true}
                 key={item.id}
                 href={`/EditorPicks/${item.id}`}
-                onClick={() =>
-                  trackEvent("featured_click", {
-                    item_id: item.id,
-                    collection_id: collectionId,
-                    position: index + 1,
-                  })
-                }
+                onClick={(e) => {
+    e.preventDefault(); // spriječi default <a> reload
+    trackEvent("featured_click", {
+      item_id: item.id,
+      collection_id: collectionId,
+      position: index + 1,
+    });
+    router.push(`/EditorPicks/${item.id}`);
+  }}
                 className={`
                   relative group rounded-3xl overflow-hidden shadow-2xl
                   transition-transform duration-500 hover:scale-105
