@@ -1,18 +1,26 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import {
-  Facebook,
-  Instagram,
-  Linkedin,
-  Youtube,
-} from "lucide-react";
+import { Facebook, Instagram, Linkedin, Youtube } from "lucide-react";
 
 const Footer = () => {
   const [openModal, setOpenModal] = useState(false);
   const [modalTitle, setModalTitle] = useState("");
   const [modalContent, setModalContent] = useState("");
+
+  // Blokira scroll pozadine dok je modal otvoren
+  useEffect(() => {
+    if (openModal) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [openModal]);
 
   const handleOpen = (type: "privacy" | "terms" | "contact") => {
     if (type === "privacy") {
@@ -107,7 +115,10 @@ info@sarayasolutions.com
       {/* MODAL */}
       {openModal && (
         <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-gradient-to-b from-black/80 via-black/40 to-transparent">
-          <div className="bg-white dark:bg-gray-900 rounded-xl shadow-xl p-6 w-[5vh] md:w-[50vh] h-[80vh] w-full relative" style={{overflowY:'scroll'}}>
+          <div
+            className="bg-white dark:bg-gray-900 rounded-xl shadow-xl p-6 md:w-[50vh] h-[80vh] w-full relative"
+            style={{ overflowY: "scroll" }}
+          >
             <button
               onClick={() => setOpenModal(false)}
               className="absolute top-3 right-3 text-gray-500 hover:text-gray-700 dark:hover:text-white"
@@ -124,10 +135,12 @@ info@sarayasolutions.com
               {modalContent}
             </p>
 
-            {/* Umjesto forme: Google Maps iframe (responsivan) */}
             {modalTitle === "Kontaktirajte nas" && (
               <div className="w-full rounded-lg overflow-hidden border border-gray-200 dark:border-gray-700">
-                <div className="relative" style={{ paddingTop: "56.25%" /* 16:9 */ }}>
+                <div
+                  className="relative"
+                  style={{ paddingTop: "56.25%" }}
+                >
                   <iframe
                     title="Lokacija - Saraya Solutions (Sarajevo)"
                     src="https://maps.google.com/maps?q=43.8563,18.4131&z=15&output=embed"
@@ -166,16 +179,16 @@ info@sarayasolutions.com
               </p>
 
               <div className="flex items-center gap-4 mt-5">
-                <a href="https://www.facebook.com/sarayasolution/" target="_blank" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white transition" rel="noreferrer">
+                <a href="https://www.facebook.com/sarayasolution/" target="_blank" rel="noreferrer" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white transition">
                   <Facebook className="w-5 h-5" />
                 </a>
-                <a href="https://www.instagram.com/saraya_solutions/" target="_blank" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white transition" rel="noreferrer">
+                <a href="https://www.instagram.com/saraya_solutions/" target="_blank" rel="noreferrer" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white transition">
                   <Instagram className="w-5 h-5" />
                 </a>
-                <a href="https://www.youtube.com/@SarayaSolutions" target="_blank" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white transition" rel="noreferrer">
+                <a href="https://www.youtube.com/@SarayaSolutions" target="_blank" rel="noreferrer" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white transition">
                   <Youtube className="w-5 h-5" />
                 </a>
-                <a href="https://ba.linkedin.com/in/saraya-solutions-20917b27a" target="_blank" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white transition" rel="noreferrer">
+                <a href="https://ba.linkedin.com/in/saraya-solutions-20917b27a" target="_blank" rel="noreferrer" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white transition">
                   <Linkedin className="w-5 h-5" />
                 </a>
               </div>
@@ -201,10 +214,7 @@ info@sarayasolutions.com
               <h3 className="font-semibold text-gray-900 dark:text-white mb-4">Pomoć</h3>
               <ul className="space-y-3 text-sm text-gray-600 dark:text-gray-400">
                 <li>
-                  <button
-                    onClick={() => handleOpen("contact")}
-                    className="hover:text-gray-900 dark:hover:text-white"
-                  >
+                  <button onClick={() => handleOpen("contact")} className="hover:text-gray-900 dark:hover:text-white">
                     Kontakt
                   </button>
                 </li>
@@ -233,12 +243,7 @@ info@sarayasolutions.com
             <p>© 2025 Saraya Solutions. Sva prava zadržana.</p>
             <p className="mt-3 sm:mt-0">
               Dizajn & razvoj:{" "}
-              <a
-                href="https://sarayasolutions.com/"
-                target="_blank"
-                className="text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white transition"
-                rel="noreferrer"
-              >
+              <a href="https://sarayasolutions.com/" target="_blank" rel="noreferrer" className="text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white transition">
                 Saraya Team
               </a>
             </p>
