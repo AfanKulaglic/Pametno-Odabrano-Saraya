@@ -14,7 +14,7 @@ const Footer = () => {
   const [modalTitle, setModalTitle] = useState("");
   const [modalContent, setModalContent] = useState("");
 
-  const handleOpen = (type) => {
+  const handleOpen = (type: "privacy" | "terms" | "contact") => {
     if (type === "privacy") {
       setModalTitle("Politika privatnosti");
       setModalContent(`
