@@ -107,7 +107,7 @@ info@sarayasolutions.com
       {/* MODAL */}
       {openModal && (
         <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-gradient-to-b from-black/80 via-black/40 to-transparent">
-          <div className="bg-white dark:bg-gray-900 rounded-xl shadow-xl p-6 w-[5vh] md:w-[40vh] w-full relative">
+          <div className="bg-white dark:bg-gray-900 rounded-xl shadow-xl p-6 w-[5vh] md:w-[50vh] h-[80vh] w-full relative" style={{overflowY:'scroll'}}>
             <button
               onClick={() => setOpenModal(false)}
               className="absolute top-3 right-3 text-gray-500 hover:text-gray-700 dark:hover:text-white"
