@@ -7,7 +7,7 @@ import ErrorFallback from "../components/ErrorFallback";
 import FixedBanner from "../components/FixedBanner";
 
 async function getCollection(): Promise<CollectionResponse> {
-  const res = await fetch("https://mocki.io/v1/1f204200-7e0b-47fa-8a76-3ce97a3ecfd8", {
+  const res = await fetch("https://mocki.io/v1/4c30025f-7f69-421b-8c42-4259106713d4", {
     cache: "no-store",
   });
   if (!res.ok) throw new Error("Greška pri dohvaćanju kolekcije");
